@@ -22,7 +22,7 @@ body
 {
     background-color:lightgoldenrodyellow;
     width: 30%;
-    opacity: 0.85;
+    opacity: 0.7;
     text-align: left;
     padding: 5px 5px 5px 5px;
     font-family:cursive;
@@ -47,6 +47,10 @@ h5
 {
     margin-bottom: -20px;
     margin-top: 0px;
+}
+h5:hover
+{
+     background-color:burlywood;
 }
 .btn
 {
@@ -93,14 +97,14 @@ title
     color: red;
     border: none;
     outline: none;
-    margin-top: 11px;
+    margin-top: 0px;
     margin-bottom: 0px;
     
 }
 #delete
 {
-     margin-top: -55px;
-     margin-left: 40px;
+     margin-top: 0px;
+     
 }
 .data
 {
@@ -165,8 +169,10 @@ p  {
     overflow-y: hidden;
     outline: none;
     border: none;
-    margin-bottom: -10px;
+    margin-top: -10px;
+    margin-bottom: -20px;
 }
+
 .id
 {
     width:10px;
@@ -180,4 +186,8 @@ footer
     font-family:sans-serif;
     font-size: 16px;
     text-align: center;
+}
+#delete
+{
+    text-align: right;
 }

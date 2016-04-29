@@ -31,7 +31,7 @@
                   return;
               }
              
-              if (!preg_match('/^[a-z0-9_-]{6,12}$/', $password1))
+              if (!preg_match('/.{6,12}/', $password1))
               {
                   echo "<span style='color:crimson;font-size:18px;'>Password should be more than 6 characters and less than 12.</span>";
                   return;

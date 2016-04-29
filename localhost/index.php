@@ -7,6 +7,9 @@ header ("Content-Type: text/html; charset=utf-8");?>
         <link rel="stylesheet" href="style.css"/>
          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="//ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/jquery-ui.min.js"></script>
+    <script src="jquery-2.2.2.min.js">
+    </script>
+        
          <script>
              function AjaxFormRequest(result_id,form_id,url) {
                 jQuery.ajax({
